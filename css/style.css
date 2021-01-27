@@ -1,0 +1,76 @@
+body{
+	width: 100%;
+}
+/* header */
+header ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+header ul li{
+		float: left;
+	  }
+header ul li a{
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+	}
+header ul li a:hover {
+		text-decoration: none;
+		color: coral;
+	  }
+
+
+/* Banner */
+
+	#banner {
+		background-image: url(../img/dark_tint.png), url(../img/firworks.jpg);
+		background-position: center center;
+		background-size: cover;
+		color: #ffffff;
+		padding: 14em 0em 14em;
+		text-align: center;
+	}
+
+		#banner :last-child {
+			margin-bottom: 0;
+		}
+
+		#banner h2 {
+			color: #ffffff;
+			font-size: 4em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+		}
+
+/* Package */
+	.package img{
+		width: 250px;
+	}
+/* footer */
+
+footer{
+	background-color: darkslategrey;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* Button */
+button{
+	color: #fff;
+	background-color: darkslategrey;
+}
